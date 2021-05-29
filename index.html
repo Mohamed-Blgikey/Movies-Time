@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <section id="loginPage" class="vh-100 ">
+        <div class="layer h-100 w-100 d-flex justify-content-center align-items-center">
+            <div
+                class="inner rounded text-white row align-items-center justify-content-center  w-50 py-5 position-relative">
+                <div id="imgColor" class="position-absolute rounded-circle p-2 img-content bg-info">
+                    <img src="image/login.jpg" class="img" alt="">
+                </div>
+
+                <div class=" w-75 container">
+                    <h2 class="pt-3 pb-5 text-center text-info">Login</h2>
+
+                    <div class="form-group py-3">
+                        <input type="text" placeholder="Enter Email like (***@yahoo.com)" id="emailLogin"
+                            class="text-info form-control border-info bg-transparent border-top-0 border-right-0 border-left-0">
+                    </div>
+
+
+                    <div class="form-group pb-3 pt-2">
+                        <input type="password" placeholder="Enter Password more than 6 char" id="passLogin"
+                            class="text-info form-control border-info bg-transparent border-top-0 border-right-0 border-left-0">
+                    </div>
+                    <p id="empty" class="text-center text-danger d-none">All inputs is required</p>
+                    <p id="incorrect" class="text-center text-danger d-none">incorrect email and password</p>
+                    <p id="incorrectPass" class="text-center text-danger d-none">incorrect password</p>
+
+                    <a id="logInBtn" class="btn btn-outline-info w-100">LogIn</a>
+
+                    <p class="text-center pt-4 text-info">Don’t have an account? <a href="signUp.html"
+                            class="text-white">Sign
+                            up</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+#loginPage,
+#signUpPage,
+#loginSuccess {
+  background-image: url(../image/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inner {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.img-content {
+  bottom: 90%;
+}
+.img {
+  width: 80px;
+  height: 80px;
+}
+
+/*welcom*/
+.navbar,
+#Welcome {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  margin-bottom: 30px;
+}
+.item-cap {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: all 1s;
+}
+.item:hover .item-cap {
+  opacity: 1;
+  top: 0;
+}
+
+.item-cap h3 {
+  padding: 40px 80px;
+  position: relative;
+  top: 100%;
+  opacity: 0;
+  transition: all 1s 1s;
+}
+.item:hover h3 {
+  top: 0;
+  opacity: 1;
+}
+
+.item-cap p {
+  position: relative;
+  top: 100%;
+  opacity: 0;
+  transition: all 1s 3s;
+}
+.item:hover p {
+  top: 0;
+  opacity: 1;
+}
+.vote {
+  width: 40px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  background-color: slateblue;
+  opacity: 0;
+  transition: all 1s 2.5s;
+  transform: rotateY(90deg);
+}
+.item:hover .vote {
+  transform: rotateY(0deg);
+  opacity: 1;
+}

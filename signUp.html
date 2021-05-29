@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <section id="signUpPage" class="vh-100 ">
+        <div class="layer h-100 w-100 d-flex justify-content-center align-items-center">
+            <div
+                class="inner rounded text-white row align-items-center justify-content-center  w-50 py-5 position-relative">
+                <div id="img-color" class="position-absolute rounded-circle p-3 img-content bg-info">
+                    <img src="image/user-lock.jpg" class="img" alt="">
+                </div>
+
+                <div class=" w-75 container">
+                    <h2 class="pt-3 pb-5 text-center text-info">Sign Up</h2>
+                    <div class="form-group py-3">
+                        <input type="text" placeholder="Enter Name" id="nameSignUp"
+                            class="text-info border-info form-control bg-transparent border-top-0 border-right-0 border-left-0">
+                    </div>
+                    <div class="form-group py-3">
+                        <input type="text" placeholder="Enter Email" id="emailSignUp"
+                            class="text-info form-control border-info bg-transparent border-top-0 border-right-0 border-left-0">
+                    </div>
+
+
+                    <div class="form-group pb-3 pt-2">
+                        <input type="password" placeholder="Enter Password" id="passSignUp"
+                            class="text-info form-control bg-transparent border-info border-top-0 border-right-0 border-left-0">
+                    </div>
+                    <p id="empty" class="text-center text-danger d-none">All inputs is required</p>
+                    <p id="isExists" class="text-center text-danger d-none">email already exists</p>
+
+                    <button id="SignUp" class="btn btn-outline-info w-100">SignUp</button>
+
+                    <p class="text-center pt-4 text-info">Don’t have an account? <a href="index.html"
+                            class="text-white">Sign
+                            in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>
